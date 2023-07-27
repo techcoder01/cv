@@ -10,6 +10,7 @@
     --ternary : #848db3;
     --pure : #eff2f9;
     --fade : #7081b9;
+    
     --mild : #8997bd;
     --footer : #212A4A;
     --black:#060b1b;
@@ -115,10 +116,10 @@ section.profile .left p b {
 }
 
 section.profile .left img {
-    width:128px;
+    width:122px;
     height: 128px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 section.profile .left .avatar__block {
@@ -181,11 +182,11 @@ section.profile .right ul.socials li:nth-child(1) a {
 }
 
 section.profile .right ul.socials li:nth-child(2) a {
-    background:var(--twitter);
+    background: var(--dark-blue);
 }
 
 section.profile .right ul.socials li:nth-child(3) a {
-    background:var(--dribbble);
+    background: red;
 }
 
 .section__heading {
